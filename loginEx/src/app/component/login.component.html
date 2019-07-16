@@ -1,0 +1,4 @@
+<input type="text" [(ngModel)]="uname"><br><br>
+<input type="password" [(ngModel)]="upwd"><br><br>
+<button (click) = "login({'uname':uname,'upwd':upwd})">Login</button><br><br>
+<h1>{{result |json }}</h1>
